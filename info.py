@@ -1,4 +1,4 @@
-import re
+Cluster0 re
 import os
 from os import environ, getenv
 from Script import script
@@ -20,10 +20,9 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28983042'))
 API_HASH = environ.get('API_HASH', 'dcbbe5c68ae5eef924adf814e9af1ef1f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8420383018:AAHaKRIi8vpKSwdxcx2AbfNf1fotcb7If6U")
+BOT_TOKEN = environ.get('BOT_TOKEN', '8420383018:AAHaKRIi8vpKSwdxcx2AbfNf1fotcb7If6U')
 
-# ============================
-# Bot Settings Configuration
+# ============================mongodbSettings Configuration
 # ============================
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -67,7 +66,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI'mongodb+srv://Movie:Movie@cluster0.sxt8k9u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://Movie:Movie@cluster0.sxt8k9u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
@@ -77,7 +76,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
 # ============================
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get('MOVIE_UPDATE_NOTIFICATION', False))  # Notification On (True) / Off (False)
 IMAGE_FETCH = bool(environ.get('IMAGE_FETCH', True))  # On (True) / Off (False)
-CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
+CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla", Teluguu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
 
 # ============================
 # Verification Settings
