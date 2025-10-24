@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID'28983042''))
+API_HASH = environ.get('API_HASH'dcbbe5c68ae5ef924adf814e9af1ef1f'')
+BOT_TOKEN = environ.get('BOT_TOKEN'8420383018:AAHAkRiI8vpKSwdxcx2AbfNflfotcb7If6U"")
 
 # ============================
 # Bot Settings Configuration
@@ -67,7 +67,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI'mongodb+srv://Movie:Movie@cluster0.sxt8k9u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
