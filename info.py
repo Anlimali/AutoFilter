@@ -95,8 +95,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download_7x/30
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', 'False'), False) # <-- Also fixed this
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.co')
+SHORTLINK_API = environ.get('SHORTLINK_API', '01e87776bcde12c051d1b193cebf75aee6b698b5')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+Ws7VRUlD3CdkNzA1')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = is_enabled(environ.get('IS_TUTORIAL', 'False'), False) # <-- Also fixed this
 
