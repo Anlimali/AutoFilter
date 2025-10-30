@@ -1,4 +1,4 @@
-z7X1Juca2nw0NzA17X1Juca2nw0NzA1mport re
+Import re
 import os
 from os import environ, getenv
 from Script import script
