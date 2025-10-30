@@ -105,9 +105,9 @@ IS_TUTORIAL = is_enabled(environ.get('IS_TUTORIAL', 'False'), False) # <-- Also 
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie7xchat')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nova_flix')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/cosmic_freak')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+z7X1Juca2nw0NzA1)
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/nova_flix')
-OWNERID = int(os.environ.get('OWNERID', '6497757690'))  # Replace with the actual admin ID
+OWNERID = int(os.environ.get('OWNERID', '723014666'))  # Replace with the actual admin ID
 
 # ============================
 # User Configuration
