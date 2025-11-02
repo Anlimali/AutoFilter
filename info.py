@@ -88,15 +88,15 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # THIS IS THE LINE I FIXED
 VERIFY = is_enabled(environ.get('VERIFY', 'True'), True)  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 1))  # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1001868871195'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download_7x/30')  # How to open tutorial link for verification
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003129933621'))  # Log channel id (make sure bot is admin)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+Ws7VRUlD3CdkNzA1')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', 'False'), False) # <-- Also fixed this
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.co')
-SHORTLINK_API = environ.get('SHORTLINK_API', '01e87776bcde12c051d1b193cebf75aee6b698b5')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkme.io')
+SHORTLINK_API = environ.get('SHORTLINK_API', '12190fcf5675f8f02ab9a15af2db8cbaf6da4a5f')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+Ws7VRUlD3CdkNzA1')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = is_enabled(environ.get('IS_TUTORIAL', 'False'), False) # <-- Also fixed this
 
