@@ -94,14 +94,14 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+Ws7VRUlD3CdkNzA1')  
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', 'True'), False) # <-- Also fixed this
+IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', 'False'), False) # <-- Also fixed this
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkme.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '12190fcf5675f8f02ab9a15af2db8cbaf6da4a5f')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+Ws7VRUlD3CdkNzA1')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = is_enabled(environ.get('IS_TUTORIAL', 'False'), False) # <-- Also fixed this
 
 # ============================
-# Channel & Group Links 'True'
+# Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie7xchat')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+z7X1Juca2nw0NzA1')
