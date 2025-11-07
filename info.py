@@ -87,7 +87,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 # THIS IS THE LINE I FIXED
 VERIFY = is_enabled(environ.get('VERIFY', 'False'), True)  # Verification On (True) / Off (False)
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE',0.1 ))  # Add time in hours
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE',1))  # Add time in hours
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003129933621'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+Ws7VRUlD3CdkNzA1')  # How to open tutorial link for verification
 
